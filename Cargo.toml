@@ -1,0 +1,13 @@
+[package]
+name = "ue-doctor"
+version = "1.0.0"
+edition = "2021"
+description = "Health checker for UE5 projects"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+glob = "0.3"
+colored = "2"
+clap = { version = "4", features = ["derive"] }
